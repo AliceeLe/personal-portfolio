@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Alice Le
+Alice Le
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+anhle@andrew.cmu.edu
 
 Phone
-+1 (213) 352-2795
++ 1 (412) 844-1279
 
 Birthday
-June 23, 1982
+January 17, 2005
 
 Location
-Sacramento, California, USA
+Pittsburgh, Pennsylvania, USA
 
 # navbar
 

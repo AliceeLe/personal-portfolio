@@ -334,6 +334,8 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
+
 }
 
 .info-content .name {
@@ -829,6 +831,29 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text > ul, li {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.custom-list {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove left padding */
+}
+
+.custom-list li {
+  position: relative; /* Relative positioning for the bullet points */
+  padding-left: 1.2em; /* Add padding to the left for the bullet points */
+}
+
+.custom-list li::before {
+  content: '●'; /* Add custom bullet point */
+  color: var(--light-gray); /* Change bullet point color to white */
+  position: absolute; /* Absolute positioning to align the bullet point */
+  left: 0; /* Position bullet point to the left */
+}
+
 
 /**
  * skills 
@@ -1178,6 +1203,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-input:focus:invalid { border-color: var(--bittersweet-shimmer); }
 
+#form-input-message {
+  height: 900px;
+}
 .form-btn {
   position: relative;
   width: 100%;
@@ -1289,7 +1317,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 520px;
+    width: 700px;
     margin-inline: auto;
     padding: 30px;
   }
